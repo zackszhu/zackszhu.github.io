@@ -1,107 +1,107 @@
 {
-    "items": [
-        {
-            "type": "Academic Project",
-            "lang": "C++",
-            "videoID": "",
-            "videoImg": "//zackszhu.github.io/static/images/isetta.webp",
-            "link": {
-                "Home Page": "//isetta.io/",
-                "Git Repository": "//github.com/Isetta-Team/Isetta-Engine"
-            },
-            "name": "Isetta Game Engine",
-            "date": "12/2018",
-            "role": "Engine Programmer",
-            "description": "The Isetta Engien Project team is demystifying game engine development process for junior developer by making a game engine in C++ and documenting the entire thought & decision-making process. Along the way, we are also conducting interviews with industry professionals, and publishing the edited interview in text on our website.",
-            "jobs": [
-                "Imported low-level 3rd party libraries, including GLFW and Horde3D.",
-                "Implemented core engine libraries, including the math library, the time library and data structures like delegate.",
-                "Implemented the engine loop, level loading, scene graph and the entity component system.",
-                "Implemented high-level gameplay systems, including the event-messaging system and the AI path-finding system.",
-                "Developed a sword fencing game with networking by using Isetta game engine.",
-                "Documented all of my technical desicions and implementation on the website."
-            ]
-        },
-        {
-            "type": "Internship Project",
-            "lang": "C++",
-            "videoID": "",
-            "videoImg": "//zackszhu.github.io/static/images/uber-atg.webp",
-            "link": {},
-            "name": "Self-Driving Vehicle Project",
-            "date": "07/2018",
-            "role": "Simulation Software Engineer Intern",
-            "description": "I worked at Uber ATG in Summer 2018 as a simulation software engineer intern. I worked on some features to improve the simulation of self-driving vehicles.",
-            "jobs": [
-                "Implemented video generation features individually in Unreal with C++ and Blueprints.",
-                "Integrated the workflow into existing automation process with Python scripts.",
-                "Cooperated with full-time workers and landed the feature through standard development workflow."
-            ]
-        },
-        {
-            "type": "Game Jam Project",
-            "lang": "C#",
-            "videoID": "https://youtu.be/HPWeZDQIT-o",
-            "videoImg": "//zackszhu.github.io/static/images/catchem.webp",
-            "link": {
-                "GGJ Page": "https://globalgamejam.org/2018/games/catchem"
-            },
-            "name": "Catch'em",
-            "date": "02/2018",
-            "role": "Gameplay Programmer",
-            "description": "Catch'em is a two-player racing game made during Global Game Jam 2018. We broke the theme from 'Transmision' to 'Trans' and 'Mission' and created a game with target switch mechanics. It was one of the most popular game on the demo day, and we won Jammer's Choice award.",
-            "jobs": [
-                "Implemented the game logic with player control and mission switch.",
-                "Implemented infinite terrain generation mechanics.",
-                "Won Jammer's Choice award in Global Game Jam @ Pittsburgh IGDA."
-            ]
-        },
-        {
-            "type": "Academic Project",
-            "lang": "C#",
-            "videoID": "https://youtu.be/7sYDlmCwhYk",
-            "videoImg": "//zackszhu.github.io/static/images/cyberarena.webp",
-            "link": {},
-            "name": "Cyber Arena",
-            "date": "11/2017",
-            "role": "Gameplay Programmer",
-            "description": "Cyber Arena is a multiplayer VR sword fighting game on Oculus. In this game, each player has a shield and a sword. We integrated the fencing into the game which means the player can only hit specific points to attack the opponent. It also used hit-and-break mechanism to avoid VR sword motion issues. This game is fully competitive with great fun.",
-            "jobs": [
-                "Created the combat system with an Entity-Component Oriented design for this game.",
-                "Implemented the visual effects, such as the post-processing effect and the hit blasts."
-            ]
-        },
-        {
-            "type": "Academic Project",
-            "lang": "C++",
-            "videoID": "",
-            "videoImg": "//zackszhu.github.io/static/images/Scotty3DLogo.webp",
-            "link": {},
-            "name": "Scotty3D Graphics Toolkit",
-            "date": "05/2018",
-            "role": "Solo Software Engineer",
-            "description": "Scotty3D is a full-featured software package for 3D modeling, rendering, and animation. I implemented these features in the computer graphics course.",
-            "jobs": [
-                "Created a polygon-based modeler with geometry computation and manipulation.",
-                "Implemented a ray-tracing renderer with Monte Carlo methods and global illumination.",
-                "Developed an animator with inverse kinematics and physically-based simulation."
-            ]
-        },
-        {
-            "type": "Internship Project",
-            "lang": "C#",
-            "videoID": "https://youtu.be/gDtz9Is9utM",
-            "videoImg": "//zackszhu.github.io/static/images/terrain-generation.webp",
-            "link": {},
-            "name": "Procedural World Generation",
-            "date": "05/2017",
-            "role": "Gameplay Programmer",
-            "description": "I was creating the procedural world generation system for a voxel game during my internship. This PCG system has more than 50 types of biomes and provides a unlimited space for players to explore. The voxel data was generated by this system and all the art assets were provided by my team.",
-            "jobs": [
-                "Used different combinations of noise functions to create different types of biomes and terrains.",
-                "Optimized the tunnel generation with LOD-like technique.",
-                "Implemented and optimized Wang-Tile plant distribution algorithm for plantation."
-            ]
-        }
-    ]
+  "items": [
+      {
+          "type": "Academic Project",
+          "lang": "C++",
+          "videoID": "",
+          "videoImg": "//zackszhu.github.io/static/images/isetta.webp",
+          "link": {
+              "Home Page": "//isetta.io/",
+              "Git Repository": "//github.com/Isetta-Team/Isetta-Engine"
+          },
+          "name": "Isetta Game Engine",
+          "date": "12/2018",
+          "role": "Engine Programmer",
+          "description": "The Isetta Engien Project team is demystifying game engine development process for junior developer by making a game engine in C++ and documenting the entire thought & decision-making process. Along the way, we are also conducting interviews with industry professionals, and publishing the edited interview in text on our website.",
+          "jobs": [
+              "Imported low-level 3rd party libraries, including GLFW and Horde3D.",
+              "Implemented core engine libraries, including the math library, the time library and data structures like delegate.",
+              "Implemented the engine loop, level loading, scene graph and the entity component system.",
+              "Implemented high-level gameplay systems, including the event-messaging system and the AI path-finding system.",
+              "Developed a sword fencing game with networking by using Isetta game engine.",
+              "Documented all of my technical desicions and implementation on the website."
+          ]
+      },
+      {
+          "type": "Internship Project",
+          "lang": "C++",
+          "videoID": "",
+          "videoImg": "//zackszhu.github.io/static/images/uber-atg.webp",
+          "link": {},
+          "name": "Self-Driving Vehicle Project",
+          "date": "07/2018",
+          "role": "Simulation Software Engineer Intern",
+          "description": "I worked at Uber ATG in Summer 2018 as a simulation software engineer intern. I worked on some features to improve the simulation of self-driving vehicles.",
+          "jobs": [
+              "Implemented video generation features individually in Unreal with C++ and Blueprints.",
+              "Integrated the workflow into existing automation process with Python scripts.",
+              "Cooperated with full-time workers and landed the feature through standard development workflow."
+          ]
+      },
+      {
+          "type": "Game Jam Project",
+          "lang": "C#",
+          "videoID": "https://youtu.be/HPWeZDQIT-o",
+          "videoImg": "//zackszhu.github.io/static/images/catchem.webp",
+          "link": {
+              "GGJ Page": "https://globalgamejam.org/2018/games/catchem"
+          },
+          "name": "Catch'em",
+          "date": "02/2018",
+          "role": "Gameplay Programmer",
+          "description": "Catch'em is a two-player racing game made during Global Game Jam 2018. We broke the theme from 'Transmision' to 'Trans' and 'Mission' and created a game with target switch mechanics. It was one of the most popular game on the demo day, and we won Jammer's Choice award.",
+          "jobs": [
+              "Implemented the game logic with player control and mission switch.",
+              "Implemented infinite terrain generation mechanics.",
+              "Won Jammer's Choice award in Global Game Jam @ Pittsburgh IGDA."
+          ]
+      },
+      {
+          "type": "Academic Project",
+          "lang": "C#",
+          "videoID": "https://youtu.be/7sYDlmCwhYk",
+          "videoImg": "//zackszhu.github.io/static/images/cyberarena.webp",
+          "link": {},
+          "name": "Cyber Arena",
+          "date": "11/2017",
+          "role": "Gameplay Programmer",
+          "description": "Cyber Arena is a multiplayer VR sword fighting game on Oculus. In this game, each player has a shield and a sword. We integrated the fencing into the game which means the player can only hit specific points to attack the opponent. It also used hit-and-break mechanism to avoid VR sword motion issues. This game is fully competitive with great fun.",
+          "jobs": [
+              "Created the combat system with an Entity-Component Oriented design for this game.",
+              "Implemented the visual effects, such as the post-processing effect and the hit blasts."
+          ]
+      },
+      {
+          "type": "Academic Project",
+          "lang": "C++",
+          "videoID": "",
+          "videoImg": "//zackszhu.github.io/static/images/Scotty3DLogo.webp",
+          "link": {},
+          "name": "Scotty3D Graphics Toolkit",
+          "date": "05/2018",
+          "role": "Solo Software Engineer",
+          "description": "Scotty3D is a full-featured software package for 3D modeling, rendering, and animation. I implemented these features in the computer graphics course.",
+          "jobs": [
+              "Created a polygon-based modeler with geometry computation and manipulation.",
+              "Implemented a ray-tracing renderer with Monte Carlo methods and global illumination.",
+              "Developed an animator with inverse kinematics and physically-based simulation."
+          ]
+      },
+      {
+          "type": "Internship Project",
+          "lang": "C#",
+          "videoID": "https://youtu.be/gDtz9Is9utM",
+          "videoImg": "//zackszhu.github.io/static/images/terrain-generation.webp",
+          "link": {},
+          "name": "Procedural World Generation",
+          "date": "05/2017",
+          "role": "Gameplay Programmer",
+          "description": "I was creating the procedural world generation system for a voxel game during my internship. This PCG system has more than 50 types of biomes and provides a unlimited space for players to explore. The voxel data was generated by this system and all the art assets were provided by my team.",
+          "jobs": [
+              "Used different combinations of noise functions to create different types of biomes and terrains.",
+              "Optimized the tunnel generation with LOD-like technique.",
+              "Implemented and optimized Wang-Tile plant distribution algorithm for plantation."
+          ]
+      }
+  ]
 }
