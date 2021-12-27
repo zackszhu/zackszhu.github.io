@@ -39,7 +39,7 @@ weight = 2
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
   showAllPostsArchive = false # default
   postsOnHomePage = 5
-  tocInline = true
+  tocInline = false
 
   # Home page settings
   description = """
