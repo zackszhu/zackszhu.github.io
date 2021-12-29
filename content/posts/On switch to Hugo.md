@@ -6,7 +6,7 @@ draft: false
 
 I’ve had a personal website for years. When I started to learn Python eight years ago, I used the Flask framework to create a lightweight personal blog. It loaded my articles from my SQLite database and used the Jinja template engine to fill the contents in. GitHub apparently couldn’t host the Flask web server, so I hosted it on my personal VPS.
 
-Later, as I learned more about React framework and good software engineer practices, I iterated on my website and decoupled the frontend and backend. The backend is still Flask and SQLite, but I switched the frontend part to React. The communication between the frontend and the backend is through REST APIs. Thus, I got the chance to only host my backend on my server and move all the static frontend pages to GitHub Pages.
+Later, as I learned more about React framework and good software engineer practices, I iterated on my website as well as decoupled the frontend and backend. The backend is still Flask and SQLite, but I switched the frontend part to React. The communication between the frontend and the backend is through REST APIs. Thus, I got the chance to only host my backend on my server and move all the static frontend pages to GitHub Pages.
 
 After I went to CMU ETC in 2019, the faculty asked all the students to have a personal website to showcase all the work and projects we were working on. Also, I was not a productive writer, so I didn’t have much to write in my blog. I decided to remove the backend part completely from my website and only have one single page to list all my projects as my portfolio. I didn’t follow the rapid frontend trends too well, so mostly, I reused the components in my previous blog site.
 
