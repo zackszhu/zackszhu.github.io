@@ -58,7 +58,6 @@ weight = 2
   mainSection = "posts" # your main section
   mainSectionTitle = "Writings"
   showAllPostsOnHomePage = false # default
-  postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = false # show tags overview by default.
   showProjectsList = true # show projects list by default (if projects data file exists).
 
