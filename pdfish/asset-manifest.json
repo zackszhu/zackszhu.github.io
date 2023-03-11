@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://www.zcj.io/pdfish/static/css/main.073c9b0a.css",
-    "main.js": "https://www.zcj.io/pdfish/static/js/main.9899e86f.js",
+    "main.js": "https://www.zcj.io/pdfish/static/js/main.f1e5379a.js",
     "static/js/787.5c93a0f7.chunk.js": "https://www.zcj.io/pdfish/static/js/787.5c93a0f7.chunk.js",
     "index.html": "https://www.zcj.io/pdfish/index.html",
     "main.073c9b0a.css.map": "https://www.zcj.io/pdfish/static/css/main.073c9b0a.css.map",
-    "main.9899e86f.js.map": "https://www.zcj.io/pdfish/static/js/main.9899e86f.js.map",
+    "main.f1e5379a.js.map": "https://www.zcj.io/pdfish/static/js/main.f1e5379a.js.map",
     "787.5c93a0f7.chunk.js.map": "https://www.zcj.io/pdfish/static/js/787.5c93a0f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.9899e86f.js"
+    "static/js/main.f1e5379a.js"
   ]
 }
