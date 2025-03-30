@@ -1,81 +1,73 @@
 baseURL = "https://www.zcj.io"
 languageCode = "en-us"
 title = "Chaojie Zhu"
-theme = "cactus"
-copyright = "Chaojie Zhu" # cactus will use title if copyright is not set
+theme = "hugo-bearblog-neo"
+copyright = "Chaojie Zhu"                 # cactus will use title if copyright is not set
 googleAnalytics = "UA-126234988-2"
-
-# Main menu which appears below site header.
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "Writings"
-url = "/posts"
-weight = 2
+enableRobotsTXT = true
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+[permalinks]
+blog = "/p/:slug"
+tags = "/blog/:slug"
 
 [markup]
-  [markup.tableOfContents]
-    endLevel = 4
-    ordered = false
-    startLevel = 2
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = true
-    lineNumbersInTable = false
-    noClasses = true
-    style = "dracula"
-    tabWidth = 4
+[markup.tableOfContents]
+endLevel = 4
+ordered = false
+startLevel = 2
+[markup.highlight]
+codeFences = true
+guessSyntax = false
+hl_Lines = ""
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = false
+noClasses = true
+style = "dracula"
+tabWidth = 4
 
 [params]
-
-  colortheme = "classic" # dark, light, white, or classic
-  rss = true # generate rss feed. default value is false
-  googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
-  showAllPostsArchive = false # default
-  postsOnHomePage = 5
-  tocInline = false
-
-  # Home page settings
-  description = """
-  👋 Hello there, I'm Chaojie Zhu, currently a software engineer at Apple.
-  
-  Before Apple, I got my Bachelor degree at [SJTU](https://en.sjtu.edu.cn) (majored in software engineering)
-  and my Master degree at [CMU Entertainment Technology Center](https://www.etc.cmu.edu). I interned at
-  [Uber ATG](https://www.uber.com/us/en/atg/research-and-development/simulation/) as a simulation software engineer
-  and [Xindong Network](https://www.xd.com/?lang=en) as a Unity3D gameplay programmer. 
-
-  I'm mostly interested in using the "nerd power" to help people better interact with technologies thus enhance the quality of life.
-  Mostly, my domains of interest are AR/VR, game AI, procedural content generation and tool creation.
-
-  Outside of work, I'm an extensive reader and heavy RPG gamer, previously an Arcane Trickster rogue, currently a Chronurgy wizard named [Christina](https://ddb.ac/characters/64665812/Ku65mz).
+title = "Chaojie Zhu"
+# Home page settings
+description = """
+  👋 Hello there, I'm Chaojie Zhu, currently a software engineer at Apple. Welcome to by blog.
   """
-  mainSection = "posts" # your main section
-  mainSectionTitle = "Writings"
-  showAllPostsOnHomePage = false # default
-  tagsOverview = false # show tags overview by default.
-  showProjectsList = true # show projects list by default (if projects data file exists).
+favicon = "images/favicon.ico"
+dateFormat = "2006-01-02"
+copyright = "Copyright © 2021-2025, Chaojie Zhu."
+groupByYear = true
+showPostCount = true
+postSearch = true
+toc = true
+upvote = false
 
-  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
-  dateFormat = "2006-01-02" # default
+[params.footer]
+# 是否隐藏版权说明文案，若不配置，默认 false
+# Whether to hide the copyright notice text, if not configured, the default is false.
+hideCopyright = false
+# 是否隐藏 Sitemap 链接，不隐藏有利于 SEO，若不配置，默认 false
+# Whether to hide the Sitemap link, not hiding is beneficial for SEO, if not configured, the default is false.
+hideSitemap = false
+# 是否隐藏 made-with-line，若不配置，默认 false，你可以关闭它，但如果你不这样做，我将非常感激 :-)
+# Whether to hide made-with-line, if not configured, the default is false, you can turn it off, but if you don't, I will be very grateful :-)
+hideMadeWithLine = false
+# 是否隐藏 RSS 和 Email 链接，若不配置，默认 false
+# Whether to hide RSS and Email links, if not configured, the default is false.
+hideRSSAndEmail = false
 
-  # Post page settings
-  show_updated = true # default
-  showReadTime = true # default
+[params.RSS]
+# 是否启用 RSS，若不配置，默认 true
+# Is RSS enabled? If not configured, the default is true.
+enableRSS = true
+# 生成的 RSS 文件中文章数量限制，若不配置，即不设限制
+# The article quantity limit in the generated RSS file, if not configured, no limit is set.
+pageLimit = 10
 
-  # the value of name should be an valid font awesome icon name (brands type)
-  # https://fontawesome.com/icons?d=gallery&s=brands
-  [[params.social]]
-    name = "github"
-    link = "https://github.com/zackszhu"
-  [[params.social]]
-    name = "linkedin"
-    link = "https://www.linkedin.com/in/chaojie-zhu/"
-  [[params.social]]
-    name = "email"
-    link = "me@zcj.io"  # no need for "mailto:" in the head
+[params.author]
+# 若不配置，默认空
+# If not configured, default is empty
+name = "Chaojie Zhu"
+# 若不配置，默认空
+# If not configured, default is empty
+email = "me@zcj.io"
