@@ -9,7 +9,7 @@ tags = []
 
 ## What is PARA?
 
-If you're familiar with knowledge management or the concept of a "second brain", you've likely heard of the PARA method. In a nutshell, PARA is a system for organizing your documents and, presumably, your knowledge. Its core idea is to use four main folders (or five, if you include an INBOX): Projects, Areas, Resources, and Archives.
+If you're familiar with knowledge management or the concept of a "second brain", you've likely heard of the [PARA method](https://fortelabs.com/blog/para/). In a nutshell, PARA is a system for organizing your documents and, presumably, your knowledge. Its core idea is to use four main folders (or five, if you include an INBOX): Projects, Areas, Resources, and Archives.
 
 * **Projects:** This folder holds active projects. Each sub-folder represents a separate project with a clear goal, steps, and target date.
 * **Areas:** This folder contains areas of responsibility that require ongoing maintenance and have no definite end date.

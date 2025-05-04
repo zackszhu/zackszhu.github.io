@@ -12,6 +12,12 @@ Before joining Apple, I earned my Bachelor’s degree in Software Engineering fr
 
 ---
 
+### Recent Posts
+
+- [One Year With the PARA Method](https://www.zcj.io/p/one-year-with-the-para-method/)
+
+---
+
 ### Notable Projects
 
 **[Isetta Game Engine](https://isetta.io)** is a C++ open-source project designed to provide junior developers with a practical understanding of game engine architecture. The project documented the development process and rationale behind key design decisions in detail. In addition to the engine itself, we conducted and published interviews with industry professionals, offering valuable insights into the field of game development.
