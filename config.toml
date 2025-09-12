@@ -36,9 +36,9 @@ description = """
 favicon = "images/favicon.ico"
 dateFormat = "2006-01-02"
 copyright = "Copyright © 2021-2025, Chaojie Zhu."
-groupByYear = true
+groupByYear = false
 showPostCount = true
-postSearch = true
+postSearch = false
 toc = true
 upvote = false
 
