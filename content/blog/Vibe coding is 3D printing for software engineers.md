@@ -7,8 +7,6 @@ tags = []
 draft = false
 +++
 
-# Vibe Coding and 3D Printing: An Unexpected Connection
-
 Vibe coding is a hot topic these days. Some people love it, others can’t stand it. For me, vibe coding isn’t a one-size-fits-all tool. It has its own place, which reminds me a lot of another hobby I recently picked up: 3D printing.
 
 Let's play with the analogy. The vibe coding editor (or CLI) is like a 3D printer. Claude Code is like a Bambu Lab printer, popular, high quality, and not the cheapest option. Different models are like different filaments, each with their own properties. System prompts are your calibration profiles. User prompts are the design files and slicing results. And in the end, the editor turns all of this into something usable, just like a 3D printer does with filament and CAD files.

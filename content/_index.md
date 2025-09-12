@@ -14,7 +14,8 @@ Before joining Apple, I earned my Bachelor’s degree in Software Engineering fr
 
 ### Recent Posts
 
-- [One Year With the PARA Method](https://www.zcj.io/p/one-year-with-the-para-method/)
+- 2025-09-11 [Vibe Coding Is 3D Printing for Software Engineers](https://www.zcj.io/p/vibe-coding-is-3d-printing-for-software-engineers/)
+- 2025-03-29 [One Year With the PARA Method](https://www.zcj.io/p/one-year-with-the-para-method/)
 
 ---
 
